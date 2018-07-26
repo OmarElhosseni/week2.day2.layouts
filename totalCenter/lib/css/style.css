@@ -1,0 +1,26 @@
+.center_content {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* bottom, image */
+    url(../../assets/shoes.jpg);
+}
+
+div {
+  display: flex;
+  font-size: 35px;
+}
+img {
+  vertical-align: top;
+  height: 72px;
+}
+body {
+    margin:0;
+}

@@ -5,17 +5,34 @@ body{
 /* END OF PREMADE */
 
 .main_container{
-
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .sidebar{
-
+  margin: 0;
+  width: 30vw;
+  background-image: url(../../assets/crash.jpg);
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  background-position-x:50%;
+  background-size: auto 100vh;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
 }
 
 .sidebar img{
-
+  width: 72px;
+  height: auto;
 }
 
 .scrolling_content{
-
+  overflow-y: scroll;
+  padding: 26px;
+  text-align: center;
+}
+h4 {
+  margin-bottom: 40px;
 }
